@@ -1,0 +1,162 @@
+// ========== register.scss ==========
+// Страница регистрации
+
+// Переменные
+$primary: #FF4D4D;
+$primary-dark: #ff1a1a;
+$success: #38ef7d;
+$bg-dark: rgba(15, 15, 15, 0.95);
+$bg-input: rgba(255, 255, 255, 0.1);
+$text-white: white;
+
+// Миксин
+@mixin transition {
+    transition: all 0.3s ease;
+}
+
+// Глобальные стили
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(133, 89, 6, 0.597), red, rgb(114, 3, 3));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    background: $bg-dark;
+    padding: 50px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 77, 77, 0.3);
+
+    h2 {
+        color: $text-white;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 28px;
+
+        span {
+            color: $primary;
+        }
+    }
+}
+
+.input-group {
+    margin-bottom: 20px;
+
+    label {
+        display: block;
+        color: $text-white;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px 15px;
+        border: none;
+        border-radius: 10px;
+        background: $bg-input;
+        color: $text-white;
+        font-size: 16px;
+        @include transition;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+
+        &:focus {
+            outline: none;
+            border-color: $primary;
+            background: rgba(255, 255, 255, 0.15);
+        }
+    }
+}
+
+.btn-register-form {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, $primary, $primary-dark);
+    color: $text-white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    @include transition;
+    margin-top: 10px;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 20px rgba(255, 77, 77, 0.4);
+    }
+}
+
+.back-home {
+    text-align: center;
+    margin-top: 20px;
+
+    a {
+        color: $text-white;
+        text-decoration: none;
+        font-size: 14px;
+        @include transition;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.success-container {
+    background: $bg-dark;
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(56, 239, 125, 0.5);
+
+    .icon {
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        color: $success;
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: $text-white;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+}
+
+.btn-main {
+    background: linear-gradient(135deg, $primary, $primary-dark);
+    color: $text-white;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    @include transition;
+    display: inline-block;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 5px 20px rgba(255, 77, 77, 0.4);
+    }
+}

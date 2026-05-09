@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(133, 89, 6, 0.597), red, rgb(114, 3, 3));
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container {
+  background: rgba(15, 15, 15, 0.95);
+  padding: 50px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 77, 77, 0.3);
+}
+.register-container h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.register-container h2 span {
+  color: #FF4D4D;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+.input-group label {
+  display: block;
+  color: white;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.input-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.input-group input:focus {
+  outline: none;
+  border-color: #FF4D4D;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.btn-register-form {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #FF4D4D, #ff1a1a);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+.btn-register-form:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(255, 77, 77, 0.4);
+}
+
+.back-home {
+  text-align: center;
+  margin-top: 20px;
+}
+.back-home a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.back-home a:hover {
+  color: #FF4D4D;
+}
+
+.success-container {
+  background: rgba(15, 15, 15, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(56, 239, 125, 0.5);
+}
+.success-container .icon {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+.success-container h2 {
+  color: #38ef7d;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.success-container p {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.btn-main {
+  background: linear-gradient(135deg, #FF4D4D, #ff1a1a);
+  color: white;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+.btn-main:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(255, 77, 77, 0.4);
+}/*# sourceMappingURL=registerindex2.css.map */

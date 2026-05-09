@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - Velvet Screen</title>
+     <link rel="icon" type="image/jpg" sizes="32x32" href="image/ikonk.jpg">
+    <link rel="stylesheet" href=".css/registerindex2.css">
+</head>
+<body>
+    <!-- Форма регистрации -->
+    <div id="registerForm" class="register-container">
+        <h2>Добро пожаловать в <span>Velvet Screen</span></h2>
+        <form id="registrationForm">
+            <div class="input-group">
+                <label>📧 Email</label>
+                <input type="email" id="email" placeholder="Введите ваш email" required>
+            </div>
+            <div class="input-group">
+                <label>👤 Имя пользователя</label>
+                <input type="text" id="username" placeholder="Введите имя пользователя" required>
+            </div>
+            <div class="input-group">
+                <label>🔒 Пароль</label>
+                <input type="password" id="password" placeholder="Введите пароль" required>
+            </div>
+            <div class="input-group">
+                <label>🔒 Подтверждение пароля</label>
+                <input type="password" id="confirmPassword" placeholder="Подтвердите пароль" required>
+            </div>
+            <button type="submit" class="btn-register-form">Зарегистрироваться</button>
+        </form>
+        <div class="back-home">
+            <a href="V_Screen.html">← Вернуться на главную</a>
+        </div>
+    </div>
+
+    <!-- Сообщение об успехе (скрыто по умолчанию) -->
+    <div id="successMessage" class="success-container" style="display: none;">
+        <div class="icon">✅</div>
+        <h2>Регистрация прошла успешно!</h2>
+        <p>Добро пожаловать в Velvet Screen!</p>
+        <a href="V_Screen.html" class="btn-main">Вернуться на главную</a>
+    </div>
+
+    <script src="register.js" ></script>
+</body>
+</html>

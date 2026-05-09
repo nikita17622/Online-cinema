@@ -1,0 +1,506 @@
+// ========== V_Screen.scss ==========
+
+// Переменные
+$primary: #FF4D4D;
+$primary-dark: #ff1a1a;
+$primary-hover: #ff3333;
+$bg-dark: #141414;
+$bg-header: rgba(15, 15, 15, 0.95);
+$bg-footer: #0a0a0a;
+$text-white: white;
+$text-gray: #aaa;
+$text-light: #B3B3B3;
+$border-color: #222;
+$border-light: #1a1a1a;
+
+// Миксины
+@mixin transition {
+    transition: all 0.3s ease;
+}
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// Глобальные стили
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: $bg-dark;
+    color: $text-white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+// Header
+header {
+    height: 100px;
+    @include flex-between;
+    padding: 20px 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    z-index: 1000;
+    background: $bg-header;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid $primary;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    @include transition;
+    font-size: 30px;
+    color: $primary;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 8px -10px $primary;
+    }
+}
+
+header nav a {
+    font-family: 'Nunito', sans-serif;
+    color: $text-white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+    display: inline-block;
+    @include transition;
+
+    &:hover {
+        box-shadow: 0 10px 10px -10px $primary;
+        transform: scale(1.15);
+        color: $primary;
+    }
+}
+
+.btn-register {
+    background: linear-gradient(135deg, $primary, $primary-dark);
+    color: $text-white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    @include transition;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(255, 77, 77, 0.4);
+        background: linear-gradient(135deg, $primary-hover, #e60000);
+    }
+}
+
+// Категории
+.category {
+    background-color: rgba(28, 27, 27, 0.273);
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: rgb(252, 171, 171);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+.ref_category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    color: $text-white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    max-width: 260px;
+    min-width: 180px;
+    height: 140px;
+    background-color: $primary;
+    @include transition;
+    flex: 1;
+
+    span {
+        font-size: 40px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgb(229, 66, 66);
+    }
+}
+
+// Ряды фильмов
+.movies-row {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 50px;
+    gap: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(133, 6, 6, 0.608) #66010198;
+}
+
+.section-title {
+    text-align: center;
+}
+.movie-item {
+    background: $bg-header;
+    border-radius: 20px;
+    @include transition;
+
+    img {
+        width: 160px;
+        height: 240px;
+        border-radius: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+        color: $text-light;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+// Подвал
+.footer {
+    background-color: $bg-footer;
+    padding: 50px 80px 30px;
+    margin-top: 60px;
+    border-top: 1px solid $border-color;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 180px;
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #fff;
+        position: relative;
+        padding-bottom: 10px;
+        border-bottom:2px solid rgb(232, 66, 66);
+
+    }
+
+    p {
+        color: $text-gray;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        margin-bottom: 12px;
+    }
+
+    a {
+        color: $text-gray;
+        text-decoration: none;
+        font-size: 15px;
+        @include transition;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    color: $text-gray;
+    font-size: 14px;
+
+    a {
+        color: $text-gray;
+        text-decoration: none;
+        @include transition;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 40px;
+    border-top: 1px solid $border-light;
+    color: #666;
+    font-size: 13px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Бургер-меню
+.desktop-menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    a {
+        color: $text-white;
+        text-decoration: none;
+        font-size: 18px;
+        @include transition;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.burger-dropdown {
+    display: none;
+    position: relative;
+}
+
+.burger-btn {
+    background: none;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(231, 54, 54);
+    padding: 5px 10px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: $bg-footer;
+    border-radius: 10px;
+    min-width: 200px;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 1000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid $primary;
+
+    a {
+        color: $text-white;
+        text-decoration: none;
+        padding: 12px 20px;
+        display: block;
+        font-size: 16px;
+        @include transition;
+        border-radius: 10px;
+
+        &:hover {
+            background: $primary;
+            color: $text-white;
+        }
+    }
+}
+
+.burger-dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+// Мобильная версия
+@media (max-width: 768px) {
+    .burger-dropdown {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .btn-register {
+        display: none;
+    }
+}
+
+// Мобильная версия
+@media (max-width: 768px) {
+    // Бургер-меню
+    .burger-dropdown {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .btn-register {
+        display: none;
+    }
+    
+    // Шапка
+    header {
+        padding: 15px 20px;
+        height: auto;
+    }
+    
+    .logo {
+        font-size: 22px;
+    }
+    
+    // Категории
+    .category {
+        padding: 20px;
+        
+        h2 {
+            font-size: 20px;
+        }
+        
+        nav {
+            gap: 12px;
+            justify-content: center;
+        }
+    }
+    
+    .ref_category {
+        max-width: 140px;
+        min-width: 120px;
+        height: 100px;
+        font-size: 14px;
+        
+        span {
+            font-size: 24px;
+        }
+    }
+    
+    // Ряды фильмов
+    .movies-row {
+        padding: 15px;
+        gap: 12px;
+    }
+    
+    .movie-item img {
+        width: 120px;
+        height: 180px;
+    }
+    
+    .movie-item p {
+        font-size: 12px;
+    }
+    
+    .section-title {
+        font-size: 24px;
+        padding: 0 15px;
+    }
+    
+    // ========== ФУТЕР (ОСНОВНЫЕ ИСПРАВЛЕНИЯ) ==========
+    .footer {
+        padding: 30px 20px 20px;
+        margin-top: 30px;
+    }
+    
+    .footer-grid {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+    
+    .footer-col {
+        min-width: auto;
+        
+        h3 {
+            text-align: center;
+            display: inline-block;
+            width: auto;
+            margin: 0 auto 20px;
+            
+            &::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-item {
+        justify-content: center;
+    }
+    
+    .footer-bottom {
+        padding-top: 20px;
+        margin-top: 20px;
+        
+        p {
+            font-size: 10px;
+            line-height: 1.4;
+        }
+    }
+}
+
+// Очень маленькие телефоны
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 15px 15px;
+    }
+    
+    .footer-col h3 {
+        font-size: 18px;
+    }
+    
+    .footer-col p {
+        font-size: 12px;
+    }
+    
+    .contact-item {
+        font-size: 12px;
+    }
+    
+    .footer-bottom p {
+        font-size: 9px;
+    }
+}

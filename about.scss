@@ -1,0 +1,266 @@
+// ========== about.scss ==========
+// Страница "О нас"
+
+// Переменные
+$primary: rgb(45, 45, 133);
+$primary-light: rgb(29, 29, 57);
+$text-white: white;
+$text-gray: #ccc;
+$text-dark: #ddd;
+$text-light: rgb(154, 154, 221);
+$text-footer: #888;
+$bg-dark: rgba(15, 15, 15, 0.8);
+$bg-card: rgba(15, 15, 15, 0.9);
+$bg-footer: rgba(15, 15, 15, 0.95);
+
+// Миксин
+@mixin transition {
+    transition: all 0.3s ease;
+}
+
+// Глобальные стили
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('stars.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;     // Важно для позиционирования подвала
+    min-height: 100%;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.back-button {
+    margin-bottom: 30px;
+}
+
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: $primary-light;
+    color: $text-white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    @include transition;
+    border: 1px solid $primary;
+
+    &:hover {
+        background: $primary;
+        transform: translateX(-5px);
+    }
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 60px;
+
+    h1 {
+        font-size: 48px;
+        color: $text-white;
+        margin-bottom: 20px;
+
+        span {
+            color: $primary;
+        }
+    }
+
+    p {
+        font-size: 20px;
+        color: $text-gray;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+.about-section {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 60px;
+    background: $bg-dark;
+    border-radius: 30px;
+    padding: 40px;
+    backdrop-filter: blur(5px);
+}
+
+.about-text {
+    flex: 1;
+
+    h2 {
+        color: $primary;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: $text-dark;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+
+    img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        @include transition;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+}
+
+.team-section {
+    text-align: center;
+    margin-bottom: 60px;
+
+    h2 {
+        color: $text-white;
+        font-size: 36px;
+        margin-bottom: 40px;
+
+        span {
+            color: $primary;
+        }
+    }
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.team-card {
+    background: $bg-card;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    @include transition;
+    border: 1px solid $primary;
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(45, 45, 133, 0.5);
+        border-color: $primary;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 3px solid $primary;
+    }
+
+    h3 {
+        color: $text-white;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: $text-light;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .bio {
+        color: #aaa;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 60px;
+    background: $bg-dark;
+    border-radius: 30px;
+    padding: 50px 20px;
+}
+
+.stat-item {
+    text-align: center;
+    flex: 1;
+    min-width: 150px;
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: $primary;
+}
+
+.stat-label {
+    color: $text-white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+footer {
+    background: $bg-footer;
+    padding: 30px;
+    text-align: center;
+    border-top: 2px solid $primary;
+    clear: both;
+    width: 100%;
+    position: absolute;     // Абсолютное позиционирование
+    bottom: 0;              // Прижимаем к низу
+    width: 100%;            // На всю ширину
+
+    p {
+        color: $text-footer;
+        font-size: 14px;
+    }
+}
+
+// Адаптив
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .stats-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stat-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
