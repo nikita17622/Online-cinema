@@ -94,7 +94,7 @@ html, body {
     margin-bottom: 15px;
 
     span {
-        color: $primary;
+        color:$text-white;
     }
 }
 
@@ -114,6 +114,9 @@ html, body {
     background: $primary;
     padding: 8px 15px;
     border-radius: 20px;
+    span {
+        color:$text-white;
+    }
 }
 
 .rating {
