@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <movies>
+        <!-- Боевики-триллеры -->
+        <movie id="1" category="action">
+            <title>Джон Уик 4</title>
+            <year>2023</year>
+            <rating>8.2</rating>
+            <duration>2ч 49мин</duration>
+            <genre>Боевик/Триллер</genre>
+            <desc>Джон Уик находит способ обрести свободу. Ему предстоит сразиться с новым врагом и его могущественной организацией.</desc>
+            <poster>image/photo_1.jpg</poster>
+            <type>movie</type>
+            <subcategory>action</subcategory>
+        </movie>
+        
+        <movie id="2" category="action">
+            <title>Миссия невыполнима: Смертельная расплата</title>
+            <year>2023</year>
+            <rating>8.1</rating>
+            <duration>2ч 43мин</duration>
+            <genre>Боевик/Приключения</genre>
+            <desc>Итан Хант и его команда должны найти новое супероружие, прежде чем оно попадёт в плохие руки.</desc>
+            <poster>image/photo_2.jpg</poster>
+            <type>movie</type>
+            <subcategory>action</subcategory>
+        </movie>
+        
+        <movie id="3" category="action">
+            <title>Форсаж 10</title>
+            <year>2023</year>
+            <rating>7.1</rating>
+            <duration>2ч 21мин</duration>
+            <genre>Боевик/Криминал</genre>
+            <desc>Дом Торетто и его команда сталкиваются с самым опасным врагом - сыном наркобарона Эрнана Рейеса.</desc>
+            <poster>image/photo_3.jpg</poster>
+            <type>movie</type>
+            <subcategory>action</subcategory>
+        </movie>
+        
+        <movie id="4" category="action">
+            <title>Извлечение 2</title>
+            <year>2023</year>
+            <rating>7.8</rating>
+            <duration>2ч 02мин</duration>
+            <genre>Боевик/Драма</genre>
+            <desc>Наёмник Тайлер Рейк спасает семью безжалостного грузинского гангстера, оказавшись в эпицентре войны.</desc>
+            <poster>image/photo_4.jpg</poster>
+            <type>movie</type>
+            <subcategory>action</subcategory>
+        </movie>
+        
+        <movie id="5" category="action">
+            <title>Аватар: Путь воды</title>
+            <year>2022</year>
+            <rating>7.9</rating>
+            <duration>3ч 12мин</duration>
+            <genre>Боевик/Фантастика</genre>
+            <desc>Джейк и Нейтири создают семью, но старые враги возвращаются, угрожая их существованию.</desc>
+            <poster>image/photo_5.jpg</poster>
+            <type>movie</type>
+            <subcategory>action</subcategory>
+        </movie>
+        
+        <movie id="6" category="action">
+            <title>Черная пантера: Ваканда навеки</title>
+            <year>2022</year>
+            <rating>7.3</rating>
+            <duration>2ч 41мин</duration>
+            <genre>Боевик/Фантастика</genre>
+            <desc>Ватканды больше нет, но её защитники продолжают бороться за наследие короля Т'Чаллы.</desc>
+            <poster>image/photo_6.jpg</poster>
+            <type>movie</type>
+            <subcategory>action</subcategory>
+        </movie>
+        
+        <movie id="7" category="action">
+            <title>Стражи Галактики. Часть 3</title>
+            <year>2023</year>
+            <rating>8.0</rating>
+            <duration>2ч 30мин</duration>
+            <genre>Боевик/Фантастика</genre>
+            <desc>Питер Квилл и его команда отправляются в последнее приключение, чтобы спасти Ракету.</desc>
+            <poster>image/photo_7.jpg</poster>
+            <type>movie</type>
+            <subcategory>action</subcategory>
+        </movie>
+        
+        <movie id="8" category="action">
+            <title>Криминальное чтиво</title>
+            <year>1994</year>
+            <rating>8.9</rating>
+            <duration>2ч 34мин</duration>
+            <genre>Криминал/Боевик</genre>
+            <desc>Истории двух киллеров, жены гангстера и боксёра переплетаются в культовом фильме Тарантино.</desc>
+            <poster>image/photo_8.jpg</poster>
+            <type>movie</type>
+            <subcategory>action</subcategory>
+        </movie>
+        
+        <movie id="9" category="action">
+            <title>Наёмник</title>
+            <year>2023</year>
+            <rating>6.8</rating>
+            <duration>1ч 51мин</duration>
+            <genre>Боевик/Триллер</genre>
+            <desc>Спецагент должен пробраться на секретную базу и спасти заложников за 12 часов.</desc>
+            <poster>image/photo_9.jpg</poster>
+            <type>movie</type>
+            <subcategory>action</subcategory>
+        </movie>
+        
+        <!-- Комедии -->
+        <movie id="10" category="comedy">
+            <title>1+1 (Неприкасаемые)</title>
+            <year>2011</year>
+            <rating>8.9</rating>
+            <duration>1ч 52мин</duration>
+            <genre>Комедия/Драма</genre>
+            <desc>Аристократ, прикованный к инвалидному креслу, нанимает для ухода бывшего заключённого. Неожиданная дружба меняет жизнь обоих.</desc>
+            <poster>image/photo_10.jpg</poster>
+            <type>movie</type>
+            <subcategory>comedy</subcategory>
+        </movie>
+        
+        <movie id="11" category="comedy">
+            <title>Парни со стволами</title>
+            <year>2019</year>
+            <rating>7.5</rating>
+            <duration>1ч 57мин</duration>
+            <genre>Комедия/Криминал</genre>
+            <desc>История о том, как обычный парень становится крупным торговцем оружием, обманывая всех вокруг.</desc>
+            <poster>image/photo_11.jpg</poster>
+            <type>movie</type>
+            <subcategory>comedy</subcategory>
+        </movie>
+        
+        <movie id="12" category="comedy">
+            <title>Один дома</title>
+            <year>1990</year>
+            <rating>8.2</rating>
+            <duration>1ч 43мин</duration>
+            <genre>Комедия/Семейный</genre>
+            <desc>Мальчика Кевина случайно оставили одного дома на Рождество, и он даёт отпор двум незадачливым грабителям.</desc>
+            <poster>image/photo_12.jpg</poster>
+            <type>movie</type>
+            <subcategory>comedy</subcategory>
+        </movie>
+        
+        <movie id="13" category="comedy">
+            <title>Маска</title>
+            <year>1994</year>
+            <rating>8.0</rating>
+            <duration>1ч 41мин</duration>
+            <genre>Комедия/Фэнтези</genre>
+            <desc>Скромный банковский служащий находит магическую маску, которая превращает его в неуловимого трикстера.</desc>
+            <poster>image/photo_13.jpg</poster>
+            <type>movie</type>
+            <subcategory>comedy</subcategory>
+        </movie>
+        
+        <movie id="14" category="comedy">
+            <title>Тупой и ещё тупее</title>
+            <year>1994</year>
+            <rating>7.3</rating>
+            <duration>1ч 47мин</duration>
+            <genre>Комедия/Приключения</genre>
+            <desc>Два друга-простака отправляются в путешествие через всю страну, чтобы вернуть потерянный кейс.</desc>
+            <poster>image/photo_14.jpg</poster>
+            <type>movie</type>
+            <subcategory>comedy</subcategory>
+        </movie>
+        
+        <movie id="15" category="comedy">
+            <title>Весёлые ребята</title>
+            <year>2022</year>
+            <rating>7.0</rating>
+            <duration>1ч 38мин</duration>
+            <genre>Комедия/Музыка</genre>
+            <desc>Группа друзей создаёт музыкальную группу и пытается стать знаменитой, попадая в смешные ситуации.</desc>
+            <poster>image/photo_15.jpg</poster>
+            <type>movie</type>
+            <subcategory>comedy</subcategory>
+        </movie>
+        
+        <movie id="16" category="comedy">
+            <title>Няньки</title>
+            <year>2010</year>
+            <rating>6.8</rating>
+            <duration>1ч 42мин</duration>
+            <genre>Комедия/Семейный</genre>
+            <desc>Двое друзей случайно становятся няньками для троих детей и переворачивают их жизнь с ног на голову.</desc>
+            <poster>image/photo_16.jpg</poster>
+            <type>movie</type>
+            <subcategory>comedy</subcategory>
+        </movie>
+        
+        <movie id="17" category="comedy">
+            <title>Борат</title>
+            <year>2006</year>
+            <rating>7.3</rating>
+            <duration>1ч 24мин</duration>
+            <genre>Комедия/Сатира</genre>
+            <desc>Казахстанский журналист Борат отправляется в США, чтобы снять документальный фильм об американской культуре.</desc>
+            <poster>image/photo_17.jpg</poster>
+            <type>movie</type>
+            <subcategory>comedy</subcategory>
+        </movie>
+        
+        <movie id="18" category="comedy">
+            <title>Мальчишник в Вегасе</title>
+            <year>2009</year>
+            <rating>7.7</rating>
+            <duration>1ч 40мин</duration>
+            <genre>Комедия/Приключения</genre>
+            <desc>Трое друзей пытаются восстановить события безумной ночи в Лас-Вегасе, чтобы найти пропавшего жениха.</desc>
+            <poster>image/photo_18.jpg</poster>
+            <type>movie</type>
+            <subcategory>comedy</subcategory>
+        </movie>
+        
+        <movie id="19" category="comedy">
+            <title>Очень страшное кино</title>
+            <year>2000</year>
+            <rating>7.0</rating>
+            <duration>1ч 28мин</duration>
+            <genre>Комедия/Пародия</genre>
+            <desc>Пародия на популярные фильмы ужасов, где группа подростков сталкивается с маньяком.</desc>
+            <poster>image/photo_19.jpg</poster>
+            <type>movie</type>
+            <subcategory>comedy</subcategory>
+        </movie>
+        
+        <!-- Драмы -->
+        <movie id="20" category="drama">
+            <title>Зеленая миля</title>
+            <year>1999</year>
+            <rating>9.0</rating>
+            <duration>3ч 9мин</duration>
+            <genre>Драма/Фэнтези</genre>
+            <desc>История надзирателя тюремного блока смертников, который встречает необычного заключённого с мистическим даром.</desc>
+            <poster>image/photo_20.jpg</poster>
+            <type>movie</type>
+            <subcategory>drama</subcategory>
+        </movie>
+        
+        <movie id="21" category="drama">
+            <title>Побег из Шоушенка</title>
+            <year>1994</year>
+            <rating>9.3</rating>
+            <duration>2ч 22мин</duration>
+            <genre>Драма/Криминал</genre>
+            <desc>Банкира Энди Дюфрейна несправедливо приговаривают к пожизненному заключению. Он находит способ выжить и сохранить надежду.</desc>
+            <poster>image/photo_21.jpg</poster>
+            <type>movie</type>
+            <subcategory>drama</subcategory>
+        </movie>
+        
+        <movie id="22" category="drama">
+            <title>Ford против Ferrari</title>
+            <year>2019</year>
+            <rating>8.1</rating>
+            <duration>2ч 32мин</duration>
+            <genre>Биография/Драма</genre>
+            <desc>История команды инженеров и гонщиков, которые бросили вызов Ferrari на гонке 24 часа Ле-Мана.</desc>
+            <poster>image/ford.jpg</poster>
+            <type>movie</type>
+            <subcategory>drama</subcategory>
+        </movie>
+        
+        <movie id="23" category="drama">
+            <title>Форрест Гамп</title>
+            <year>1994</year>
+            <rating>8.9</rating>
+            <duration>2ч 22мин</duration>
+            <genre>Драма/Комедия</genre>
+            <desc>История парня с низким IQ, который невольно становится участником важнейших событий XX века.</desc>
+            <poster>image/photo_22.jpg</poster>
+            <type>movie</type>
+            <subcategory>drama</subcategory>
+        </movie>
+        
+        <movie id="24" category="drama">
+            <title>Остров проклятых</title>
+            <year>2010</year>
+            <rating>8.2</rating>
+            <duration>2ч 18мин</duration>
+            <genre>Драма/Триллер</genre>
+            <desc>Два маршала прибывают на остров для расследования исчезновения пациентки психиатрической клиники.</desc>
+            <poster>image/photo_23.jpg</poster>
+            <type>movie</type>
+            <subcategory>drama</subcategory>
+        </movie>
+        
+        <movie id="25" category="drama">
+            <title>Волк с Уолл-стрит</title>
+            <year>2013</year>
+            <rating>8.0</rating>
+            <duration>3ч 0мин</duration>
+            <genre>Драма/Комедия</genre>
+            <desc>История взлёта и падения брокера Джордана Белфорта, который построил свою империю на обмане.</desc>
+            <poster>image/photo_24.jpg</poster>
+            <type>movie</type>
+            <subcategory>drama</subcategory>
+        </movie>
+        
+        <movie id="26" category="drama">
+            <title>Одержимость</title>
+            <year>2014</year>
+            <rating>8.1</rating>
+            <duration>1ч 47мин</duration>
+            <genre>Драма/Музыка</genre>
+            <desc>Молодой барабанщик попадает под влияние жестокого преподавателя, который требует от него совершенства.</desc>
+            <poster>image/photo_25.jpg</poster>
+            <type>movie</type>
+            <subcategory>drama</subcategory>
+        </movie>
+        
+        <movie id="27" category="drama">
+            <title>Социальная сеть</title>
+            <year>2010</year>
+            <rating>7.9</rating>
+            <duration>2ч 0мин</duration>
+            <genre>Драма/Биография</genre>
+            <desc>История создания Facebook и того, как дружба превратилась в войну за миллиарды.</desc>
+            <poster>image/photo_26.jpg</poster>
+            <type>movie</type>
+            <subcategory>drama</subcategory>
+        </movie>
+        
+        <movie id="28" category="drama">
+            <title>Бойцовский клуб</title>
+            <year>1999</year>
+            <rating>8.6</rating>
+            <duration>2ч 19мин</duration>
+            <genre>Драма/Триллер</genre>
+            <desc>Офисный работник знакомится с харизматичным торговцем мылом и создаёт подпольный бойцовский клуб.</desc>
+            <poster>image/photo_27.jpg</poster>
+            <type>movie</type>
+            <subcategory>drama</subcategory>
+        </movie>
+        
+        <!-- Фантастика -->
+        <movie id="29" category="fantasy">
+            <title>Интерстеллар</title>
+            <year>2014</year>
+            <rating>8.6</rating>
+            <duration>2ч 49мин</duration>
+            <genre>Фантастика/Драма</genre>
+            <desc>Группа исследователей отправляется через червоточину, чтобы найти новое пристанище для человечества.</desc>
+            <poster>image/photo_28.jpg</poster>
+            <type>movie</type>
+            <subcategory>fantasy</subcategory>
+        </movie>
+        
+        <movie id="30" category="fantasy">
+            <title>Начало</title>
+            <year>2010</year>
+            <rating>8.5</rating>
+            <duration>2ч 28мин</duration>
+            <genre>Фантастика/Боевик</genre>
+            <desc>Вор, способный проникать в чужие сны, должен внедрить идею в сознание человека.</desc>
+            <poster>image/photo_29.jpg</poster>
+            <type>movie</type>
+            <subcategory>fantasy</subcategory>
+        </movie>
+        
+        <movie id="31" category="fantasy">
+            <title>Мстители: Финал</title>
+            <year>2019</year>
+            <rating>8.4</rating>
+            <duration>3ч 1мин</duration>
+            <genre>Фантастика/Боевик</genre>
+            <desc>Мстители объединяются, чтобы отменить разрушительные действия Таноса и восстановить порядок во Вселенной.</desc>
+            <poster>image/final.jpg</poster>
+            <type>movie</type>
+            <subcategory>fantasy</subcategory>
+        </movie>
+        
+        <movie id="32" category="fantasy">
+            <title>Матрица</title>
+            <year>1999</year>
+            <rating>8.7</rating>
+            <duration>2ч 16мин</duration>
+            <genre>Фантастика/Боевик</genre>
+            <desc>Программист Томас Андерсон узнаёт, что мир вокруг него — симуляция, и становится избранным.</desc>
+            <poster>image/photo_30.jpg</poster>
+            <type>movie</type>
+            <subcategory>fantasy</subcategory>
+        </movie>
+        
+        <movie id="33" category="fantasy">
+            <title>Бегущий по лезвию 2049</title>
+            <year>2017</year>
+            <rating>8.0</rating>
+            <duration>2ч 43мин</duration>
+            <genre>Фантастика/Триллер</genre>
+            <desc>Новый офицер полиции находит тайну, способную уничтожить общество.</desc>
+            <poster>image/photo_31.jpg</poster>
+            <type>movie</type>
+            <subcategory>fantasy</subcategory>
+        </movie>
+        
+        <movie id="34" category="fantasy">
+            <title>Дюна</title>
+            <year>2021</year>
+            <rating>7.9</rating>
+            <duration>2ч 35мин</duration>
+            <genre>Фантастика/Приключения</genre>
+            <desc>Пол Атрейдес отправляется на опасную планету Арракис, где идёт борьба за контроль над спайсом.</desc>
+            <poster>image/photo_32.jpg</poster>
+            <type>movie</type>
+            <subcategory>fantasy</subcategory>
+        </movie>
+        
+        <movie id="35" category="fantasy">
+            <title>Трансформеры: Эпоха истребления</title>
+            <year>2014</year>
+            <rating>6.2</rating>
+            <duration>2ч 45мин</duration>
+            <genre>Фантастика/Боевик</genre>
+            <desc>Механик и его дочь находят сломанного грузовика, который оказывается Оптимусом Праймом.</desc>
+            <poster>image/photo_33.jpg</poster>
+            <type>movie</type>
+            <subcategory>fantasy</subcategory>
+        </movie>
+        
+        <movie id="36" category="fantasy">
+            <title>Грань будущего</title>
+            <year>2014</year>
+            <rating>7.9</rating>
+            <duration>1ч 53мин</duration>
+            <genre>Фантастика/Боевик</genre>
+            <desc>Военный попадает во временную петлю и каждый раз погибает в битве с инопланетянами.</desc>
+            <poster>image/photo_34.jpg</poster>
+            <type>movie</type>
+            <subcategory>fantasy</subcategory>
+        </movie>
+        
+        <movie id="37" category="fantasy">
+            <title>Пятый элемент</title>
+            <year>1997</year>
+            <rating>7.6</rating>
+            <duration>2ч 6мин</duration>
+            <genre>Фантастика/Боевик</genre>
+            <desc>Таксист спасает девушку — воплощение пятого элемента, которая может спасти Землю от тьмы.</desc>
+            <poster>image/photo_35.jpg</poster>
+            <type>movie</type>
+            <subcategory>fantasy</subcategory>
+        </movie>
+        
+        <!-- Ужасы -->
+        <movie id="38" category="horror">
+            <title>Оно</title>
+            <year>2017</year>
+            <rating>7.3</rating>
+            <duration>2ч 15мин</duration>
+            <genre>Ужасы/Триллер</genre>
+            <desc>В маленьком городке Derry появляется злобный клоун Пеннивайз, который охотится на детей.</desc>
+            <poster>image/photo_36.jpg</poster>
+            <type>movie</type>
+            <subcategory>horror</subcategory>
+        </movie>
+        
+        <movie id="39" category="horror">
+            <title>Заклятие</title>
+            <year>2013</year>
+            <rating>7.5</rating>
+            <duration>1ч 52мин</duration>
+            <genre>Ужасы/Триллер</genre>
+            <desc>Известные исследователи паранормальных явлений помогают семье, столкнувшейся с демоническим присутствием.</desc>
+            <poster>image/photo_37.jpg</poster>
+            <type>movie</type>
+            <subcategory>horror</subcategory>
+        </movie>
+        
+        <movie id="40" category="horror">
+            <title>Пила: Игра на выживание</title>
+            <year>2004</year>
+            <rating>7.6</rating>
+            <duration>1ч 43мин</duration>
+            <genre>Ужасы/Триллер</genre>
+            <desc>Два незнакомца просыпаются в заброшенной ванной комнате с пилой и загадочной кассетой.</desc>
+            <poster>image/photo_38.jpg</poster>
+            <type>movie</type>
+            <subcategory>horror</subcategory>
+        </movie>
+        
+        <movie id="41" category="horror">
+            <title>Тихое место</title>
+            <year>2018</year>
+            <rating>7.5</rating>
+            <duration>1ч 30мин</duration>
+            <genre>Ужасы/Фантастика</genre>
+            <desc>Семья выживает в мире, где малейший звук привлекает смертоносных монстров.</desc>
+            <poster>image/photo_39.jpg</poster>
+            <type>movie</type>
+            <subcategory>horror</subcategory>
+        </movie>
+        
+        <movie id="42" category="horror">
+            <title>Астрал</title>
+            <year>2010</year>
+            <rating>6.0</rating>
+            <duration>1ч 43мин</duration>
+            <genre>Ужасы/Триллер</genre>
+            <desc>Семья обнаруживает, что их сын впал в кому и его душа застряла в астральном мире.</desc>
+            <poster>image/astral.jpg</poster>
+            <type>movie</type>
+            <subcategory>horror</subcategory>
+        </movie>
+        
+        <movie id="43" category="horror">
+            <title>Сияние</title>
+            <year>1980</year>
+            <rating>8.4</rating>
+            <duration>2ч 26мин</duration>
+            <genre>Ужасы/Драма</genre>
+            <desc>Писатель становится смотрителем пустующего отеля и постепенно сходит с ума.</desc>
+            <poster>image/photo_40.jpg</poster>
+            <type>movie</type>
+            <subcategory>horror</subcategory>
+        </movie>
+        
+        <movie id="44" category="horror">
+            <title>Звонок</title>
+            <year>2002</year>
+            <rating>7.0</rating>
+            <duration>1ч 55мин</duration>
+            <genre>Ужасы/Триллер</genre>
+            <desc>Просмотр загадочной кассеты убивает человека ровно через 7 дней.</desc>
+            <poster>image/photo_41.jpg</poster>
+            <type>movie</type>
+            <subcategory>horror</subcategory>
+        </movie>
+        
+        <movie id="45" category="horror">
+            <title>Паранормальное явление</title>
+            <year>2007</year>
+            <rating>6.3</rating>
+            <duration>1ч 26мин</duration>
+            <genre>Ужасы/Триллер</genre>
+            <desc>Молодая пара снимает на камеру странные события, происходящие в их доме по ночам.</desc>
+            <poster>image/photo_42.jpg</poster>
+            <type>movie</type>
+            <subcategory>horror</subcategory>
+        </movie>
+        
+        <movie id="46" category="horror">
+            <title>Реинкарнация</title>
+            <year>2018</year>
+            <rating>7.3</rating>
+            <duration>2ч 7мин</duration>
+            <genre>Ужасы/Драма</genre>
+            <desc>Смерть эксцентричной матери оставляет странное проклятие на её детях.</desc>
+            <poster>image/photo_43.jpg</poster>
+            <type>movie</type>
+            <subcategory>horror</subcategory>
+        </movie>
+    </movies>
+    
+    <series>
+        <movie id="47" category="series">
+            <title>Во все тяжкие</title>
+            <year>2008-2013</year>
+            <rating>9.5</rating>
+            <duration>6 сезонов</duration>
+            <genre>Криминал/Драма</genre>
+            <desc>Учитель химии начинает производить метамфетамин, чтобы обеспечить семью после своей смерти.</desc>
+            <poster>image/photo_44.jpg</poster>
+            <type>series</type>
+        </movie>
+        
+        <movie id="48" category="series">
+            <title>Игра престолов</title>
+            <year>2011-2019</year>
+            <rating>9.2</rating>
+            <duration>8 сезонов</duration>
+            <genre>Фэнтези/Драма</genre>
+            <desc>Борьба за Железный трон между знатными домами Семи королевств.</desc>
+            <poster>image/photo_45.jpg</poster>
+            <type>series</type>
+        </movie>
+        
+        <movie id="49" category="series">
+            <title>Очень странные дела</title>
+            <year>2016-н.в.</year>
+            <rating>8.7</rating>
+            <duration>4 сезона</duration>
+            <genre>Фантастика/Ужасы</genre>
+            <desc>Исчезновение мальчика открывает портал в параллельный мир, полный монстров.</desc>
+            <poster>image/photo_46.jpg</poster>
+            <type>series</type>
+        </movie>
+        
+        <movie id="50" category="series">
+            <title>Шерлок</title>
+            <year>2010-2017</year>
+            <rating>8.8</rating>
+            <duration>4 сезона</duration>
+            <genre>Детектив/Триллер</genre>
+            <desc>Современная адаптация приключений гениального сыщика Шерлока Холмса.</desc>
+            <poster>image/photo_47.jpg</poster>
+            <type>series</type>
+        </movie>
+        
+        <movie id="51" category="series">
+            <title>Черное зеркало</title>
+            <year>2011-н.в.</year>
+            <rating>8.8</rating>
+            <duration>6 сезонов</duration>
+            <genre>Фантастика/Триллер</genre>
+            <desc>Антология о тёмной стороне технологий и их влиянии на человечество.</desc>
+            <poster>image/photo_48.jpg</poster>
+            <type>series</type>
+        </movie>
+        
+        <movie id="52" category="series">
+            <title>Друзья</title>
+            <year>1994-2004</year>
+            <rating>8.9</rating>
+            <duration>10 сезонов</duration>
+            <genre>Комедия/Ситком</genre>
+            <desc>Шестеро друзей в Нью-Йорке переживают жизненные и любовные приключения.</desc>
+            <poster>image/photo_49.jpg</poster>
+            <type>series</type>
+        </movie>
+        
+        <movie id="53" category="series">
+            <title>Клан Сопрано</title>
+            <year>1999-2007</year>
+            <rating>9.2</rating>
+            <duration>6 сезонов</duration>
+            <genre>Криминал/Драма</genre>
+            <desc>Жизнь босса мафии и его семьи, балансирующего между преступностью и психотерапией.</desc>
+            <poster>image/photo_50.jpg</poster>
+            <type>series</type>
+        </movie>
+        
+        <movie id="54" category="series">
+            <title>Лучше звоните Солу</title>
+            <year>2015-2022</year>
+            <rating>9.0</rating>
+            <duration>6 сезонов</duration>
+            <genre>Криминал/Драма</genre>
+            <desc>История превращения Сола Гудмана из мелкого адвоката в адвоката наркокартеля.</desc>
+            <poster>image/photo_51.jpg</poster>
+            <type>series</type>
+        </movie>
+        
+        <movie id="55" category="series">
+            <title>Мандалорец</title>
+            <year>2019-н.в.</year>
+            <rating>8.7</rating>
+            <duration>3 сезона</duration>
+            <genre>Фантастика/Приключения</genre>
+            <desc>Одинокий охотник за головами путешествует по галактике и защищает малыша Грогу.</desc>
+            <poster>image/photo_52.jpg</poster>
+            <type>series</type>
+        </movie>
+        
+        <movie id="56" category="series">
+            <title>Ведьмак</title>
+            <year>2019-н.в.</year>
+            <rating>8.2</rating>
+            <duration>3 сезона</duration>
+            <genre>Фэнтези/Боевик</genre>
+            <desc>Охотник на монстров Геральт пытается найти своё место в мире, где люди злее чудовищ.</desc>
+            <poster>image/photo_53.jpg</poster>
+            <type>series</type>
+        </movie>
+    </series>
+</content>
