@@ -243,6 +243,19 @@
             <type>movie</type>
             <subcategory>drama</subcategory>
         </movie>
+
+            <movie id="100" category="drama">
+    <title>По соображениям совести</title>
+    <year>2016</year>
+    <rating>8.1</rating>
+    <duration>2ч 19мин</duration>
+    <genre>Драма/Биография/Военный</genre>
+    <desc>История Десмонда Досса, американского военного медика и убежденного пацифиста, который во время битвы за Окинаву спас 75 раненых солдат, не взяв в руки оружия. Первый отказанник по соображениям совести, удостоенный Медали Почета.</desc>
+    <poster>image/photo_100.jpg</poster>
+    <type>movie</type>
+    <subcategory>drama</subcategory>
+</movie>
+        
         
         <movie id="21" category="drama">
             <title>Побег из Шоушенка</title>
@@ -255,6 +268,7 @@
             <type>movie</type>
             <subcategory>drama</subcategory>
         </movie>
+        
         
         <movie id="22" category="drama">
             <title>Ford против Ferrari</title>
